@@ -1,0 +1,60 @@
+<style>
+    .child>u:nth-child(odd) {
+        background-color: greenyellow;
+    }
+
+    .type>u:nth-of-type(2n) {
+        background-color: greenyellow;
+    }
+</style>
+
+<body>
+    <div class="child">
+        <u>1번</u> <u>2번</u> <em>3번</em>
+        <u>4번</u> <u>5번</u> <u>6번</u>
+    </div>
+    <div class="type">
+        <u>1번</u> <u>2번</u> <em>3번</em>
+        <u>4번</u> <u>5번</u> <u>6번</u>
+    </div>
+</body>
+
+
+<style>
+    /* td:nth-of-type(2n+1) {
+        background: lime;
+    } */
+    tr:nth-child(odd) {
+        background-color: cyan;
+    }
+    td:nth-child(even) {
+        background-color: yellow;
+    }
+    
+</style>
+
+<body>
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+    </table>
+</body>
